@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointer and Friend class", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pemdas", "Pemdas\Pemdas.vcxproj", "{AC7E4D13-0A65-4858-831D-AAC7E5CDCCD3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Friend class1", "Friend class1\Friend class1.vcxproj", "{57237A13-672C-4115-8AC3-ADF28739CB2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{AC7E4D13-0A65-4858-831D-AAC7E5CDCCD3}.Release|x64.Build.0 = Release|x64
 		{AC7E4D13-0A65-4858-831D-AAC7E5CDCCD3}.Release|x86.ActiveCfg = Release|Win32
 		{AC7E4D13-0A65-4858-831D-AAC7E5CDCCD3}.Release|x86.Build.0 = Release|Win32
+		{57237A13-672C-4115-8AC3-ADF28739CB2B}.Debug|x64.ActiveCfg = Debug|x64
+		{57237A13-672C-4115-8AC3-ADF28739CB2B}.Debug|x64.Build.0 = Debug|x64
+		{57237A13-672C-4115-8AC3-ADF28739CB2B}.Debug|x86.ActiveCfg = Debug|Win32
+		{57237A13-672C-4115-8AC3-ADF28739CB2B}.Debug|x86.Build.0 = Debug|Win32
+		{57237A13-672C-4115-8AC3-ADF28739CB2B}.Release|x64.ActiveCfg = Release|x64
+		{57237A13-672C-4115-8AC3-ADF28739CB2B}.Release|x64.Build.0 = Release|x64
+		{57237A13-672C-4115-8AC3-ADF28739CB2B}.Release|x86.ActiveCfg = Release|Win32
+		{57237A13-672C-4115-8AC3-ADF28739CB2B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
