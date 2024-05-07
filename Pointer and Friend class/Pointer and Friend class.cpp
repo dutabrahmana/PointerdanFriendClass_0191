@@ -13,15 +13,15 @@ public:
 
 int main()
 {
-	mahasiswa mhs{ 1 };
+	mahasiswa mhs{ 1 }; // object mhs
+	mhs.showNim();	// member acces operator
+
+	mahasiswa& refMhs = mhs;	// pointer reference ref mhs
+	refMhs.nim = 2;		// member acces operator
 	mhs.showNim();
 
-	mahasiswa& refMhs = mhs;
-	refMhs.nim = 2; 
-	mhs.showNim();
-
-	mahasiswa* pMhs = &mhs;
-	pMhs->nim = 3;
+	mahasiswa* pMhs = &mhs; // pointer dereference pMhs
+	pMhs->nim = 3;	//Arrow Operator
 	pMhs->showNim();
 	return 0;
 }
